@@ -1,0 +1,15 @@
+c:\Users\filip.scherlund\Documents\My Games\Arsenal\Program.cs\bin\Debug\net8.0\Program.cs.exe
+c:\Users\filip.scherlund\Documents\My Games\Arsenal\Program.cs\bin\Debug\net8.0\Program.cs.deps.json
+c:\Users\filip.scherlund\Documents\My Games\Arsenal\Program.cs\bin\Debug\net8.0\Program.cs.runtimeconfig.json
+c:\Users\filip.scherlund\Documents\My Games\Arsenal\Program.cs\bin\Debug\net8.0\Program.cs.dll
+c:\Users\filip.scherlund\Documents\My Games\Arsenal\Program.cs\bin\Debug\net8.0\Program.cs.pdb
+c:\Users\filip.scherlund\Documents\My Games\Arsenal\Program.cs\obj\Debug\net8.0\Program.cs.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\filip.scherlund\Documents\My Games\Arsenal\Program.cs\obj\Debug\net8.0\Program.cs.AssemblyInfoInputs.cache
+c:\Users\filip.scherlund\Documents\My Games\Arsenal\Program.cs\obj\Debug\net8.0\Program.cs.AssemblyInfo.cs
+c:\Users\filip.scherlund\Documents\My Games\Arsenal\Program.cs\obj\Debug\net8.0\Program.cs.csproj.CoreCompileInputs.cache
+c:\Users\filip.scherlund\Documents\My Games\Arsenal\Program.cs\obj\Debug\net8.0\Program.cs.sourcelink.json
+c:\Users\filip.scherlund\Documents\My Games\Arsenal\Program.cs\obj\Debug\net8.0\Program.cs.dll
+c:\Users\filip.scherlund\Documents\My Games\Arsenal\Program.cs\obj\Debug\net8.0\refint\Program.cs.dll
+c:\Users\filip.scherlund\Documents\My Games\Arsenal\Program.cs\obj\Debug\net8.0\Program.cs.pdb
+c:\Users\filip.scherlund\Documents\My Games\Arsenal\Program.cs\obj\Debug\net8.0\Program.cs.genruntimeconfig.cache
+c:\Users\filip.scherlund\Documents\My Games\Arsenal\Program.cs\obj\Debug\net8.0\ref\Program.cs.dll
