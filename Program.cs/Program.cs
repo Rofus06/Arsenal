@@ -4,18 +4,16 @@ using System.Text.Json;
 
 class Program
 {
-    // Klass som representerar vapnet (endast inuti Program.cs)
     public class Weapon
     {
         public string Name { get; set; }
         public int DamageMin { get; set; }
         public int DamageMax { get; set; }
 
-        // Metod för att attackera (slumpmässig skada mellan DamageMin och DamageMax)
         public int Attack()
         {
             Random random = new Random();
-            return random.Next(DamageMin, DamageMax + 1); // Slumpmässig skada
+            return random.Next(DamageMin, DamageMax + 1);
         }
     }
 
@@ -29,9 +27,21 @@ class Program
         Console.WriteLine($"Weapon: {myWeapon.Name}");
         Console.WriteLine($"Damage Range: {myWeapon.DamageMin} - {myWeapon.DamageMax}");
 
-        // Testa vapnet genom att göra en attack
-        int damage = myWeapon.Attack();
-        Console.WriteLine($"You attack with {myWeapon.Name} and deal {damage} damage.");
+        // Fråga användaren hur många attacker som ska utföras
+        Console.WriteLine("How many attacks would you like to perform?");
+        int numAttacks = int.Parse(Console.ReadLine());
+
+        // Räkna ihop den totala skadan
+        int totalDamage = 0;
+        for (int i = 0; i < numAttacks; i++)
+        {
+            int damage = myWeapon.Attack();
+            totalDamage += damage;
+            Console.WriteLine($"Attack {i + 1}: {damage} damage.");
+        }
+
+        // Skriv ut den totala skadan
+        Console.WriteLine($"Total damage dealt: {totalDamage}");
 
         // Håller konsolen öppen
         Console.WriteLine("Press Enter to exit.");
