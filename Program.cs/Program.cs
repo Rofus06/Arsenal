@@ -26,9 +26,15 @@ class Program
         while (myWeapon == null)
         {
             // Låt användaren välja vilken JSON-fil som ska laddas
-            Console.WriteLine("Choose a weapon file (e.g., 'AK47.json' or 'LR300.json'):");
+            Console.WriteLine("Choose a weapon file (e.g., 'AK47' or 'LR300'):");
             string fileName = Console.ReadLine();
             
+            // Lägg till '.json' om användaren inte inkluderade det
+            if (!fileName.EndsWith(".json"))
+            {
+                fileName += ".json";
+            }
+
 
             // Kontrollera om filen finns
             if (!File.Exists(fileName))
